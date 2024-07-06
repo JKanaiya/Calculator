@@ -20,10 +20,30 @@ body {
   box-shadow: 20px 20px black;
   border-radius: 20px;
 }
-input {
+#dClear {
   width: 100%;
-  height: 15%;
-  border-radius: inherit;
+  height: 18%;
+  padding: 1.3%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #50130b;
+}
+#clear {
+  width: 26%;
+  border: #370b52 3px solid;
+  box-shadow: 5px 5px #370b52;
+  font-size: 25px;
+  margin-right: 1.5%;
+  height: 88%;
+  margin-top: 1%;
+  border-radius: 10px;
+}
+input {
+  margin-top: 1%;
+  width: 70%;
+  height: 88%;
+  border-radius: 10px;
   font-size: 30px;
   text-align: center;
 }
