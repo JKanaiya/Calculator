@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #0b4a52;
+  display: grid;
+  place-content: center;
+}
+#calcBoard {
+  background-color: #fff;
+  height: 80dvh;
+  width: 35vw;
+  display: flex;
+  gap: 3%;
+  padding: 2%;
+  flex-direction: column;
+  margin-top: 10%;
+  box-shadow: 20px 20px black;
+  border-radius: 20px;
+}
+input {
+  width: 100%;
+  height: 15%;
+  border-radius: inherit;
+  font-size: 30px;
+  text-align: center;
+}
+#inputArea {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: inherit;
+  text-align: center;
+  gap: inherit;
+  border-radius: inherit;
+  background-color: #50130b;
+}
+#numbers {
+  height: 95%;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  background-color: #fff;
+  gap: 4%;
+  border-radius: inherit;
+}
+.number {
+  min-width: 29%;
+  height: 22%;
+  border-radius: 5px;
+  font-size: 30px;
+  display: grid;
+  place-content: center;
+  background-color: #fff;
+  border: #370b52 3px solid;
+  box-shadow: 5px 5px #8a2013;
+}
+#equals {
+  background-color: #fff;
+  width: 62%;
+  border-radius: 5px;
+  height: 22%;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 30px;
+  display: grid;
+  place-content: center;
+  border: #370b52 3px solid;
+  box-shadow: 5px 5px #8a2013;
+}
+#operators {
+  height: 95%;
+  width: 30%;
+  display: flex;
+  padding: 2%;
+  gap: 2%;
+  flex-direction: column;
+  border-radius: inherit;
+  background-color: #0b2652;
+}
+.operator {
+  height: 23%;
+  margin-left: 10%;
+  width: 80%;
+  font-size: 30px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  background-color: #fff;
+  border: #370b52 3px solid;
+  box-shadow: 5px 5px #8a2013;
+}
